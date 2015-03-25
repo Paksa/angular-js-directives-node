@@ -1,0 +1,83 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.bordered-block {
+    border-color: black;
+    border: 2px solid;
+}
+.left-column {
+    float: left;
+    width: 45%;
+}
+
+.right-column {
+    float: right;
+    width: 45%;
+}
+
+.footer {
+    clear: both;
+}
+
+.text-inline {
+    display: inline-block;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+img.avatar {
+<<<<<<< HEAD
+    width: 70px;
+    height: 70px;
+=======
+    width: 50px;
+    height: 50px;
+>>>>>>> 79bda336fdda66775fe37182c4f83f3267695f5e
+}
+
+td {
+    overflow: hidden;
+}
+<<<<<<< HEAD
+
+.image-popup-text-wrapper {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+.image-popup-text {
+    font: 12px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    position: absolute;
+    color: rgba(250, 247, 245, 0.70);
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+}
+=======
+>>>>>>> 79bda336fdda66775fe37182c4f83f3267695f5e
