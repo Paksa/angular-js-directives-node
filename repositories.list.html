@@ -5,14 +5,10 @@
     <li ng-repeat="repo in repositories" ui-sref="repositories.details({repo_owner: repo.owner.login, repo_name: repo.name, repo: repo})">
         <table>
             <tr>
-<<<<<<< HEAD
                 <td><imagetext text="ID: {{repo.owner.id}}">
                         </image-popup-text><img class="avatar" ng-src="{{repo.owner.avatar_url}}"/>
                     </imagetext>
                 </td>
-=======
-                <td><img class="avatar" ng-src="{{repo.owner.avatar_url}}"/></td>
->>>>>>> 79bda336fdda66775fe37182c4f83f3267695f5e
                 <td>
                     <table>
                         <tr><td>Repo Name: {{repo.full_name}}</td></tr>

@@ -1,15 +1,9 @@
-<<<<<<< HEAD
 ﻿var App = angular.module('App', ['ngResource','ui.router', 'App.Controllers', 'App.Filters', 'App.Factories', 'App.Directives']);
 angular.module('App.Controllers',[]);
 angular.module('App.Filters',[]);
 angular.module('App.Factories',[]);
 angular.module('App.Directives', []);
-=======
-﻿var App = angular.module('App', ['ngResource','ui.router', 'App.Controllers', 'App.Filters', 'App.Factories']);
-angular.module('App.Controllers',[]);
-angular.module('App.Filters',[]);
-angular.module('App.Factories',[]);
->>>>>>> 79bda336fdda66775fe37182c4f83f3267695f5e
+
 
 App.config(function($stateProvider, $urlRouterProvider) {
    $stateProvider
@@ -33,12 +27,6 @@ App.config(function($stateProvider, $urlRouterProvider) {
            onEnter: function() {
                document.body.scrollTop = document.documentElement.scrollTop = 0;
            }
-           //views: {
-           //    '@': {
-           //        templateUrl: 'repositories.details.html'
-           //        //controller: 'gitRepoDetailsController'
-           //    }
-           //}
        });
     $urlRouterProvider.otherwise("/repositories/list");
 });
